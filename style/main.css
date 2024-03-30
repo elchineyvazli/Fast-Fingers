@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding-top: 50px;
+  background-color: #B7DCFB;
+}
+body #words {
+  width: 1000px;
+  height: 110px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow: auto;
+  padding-left: 20px;
+}
+body #words p {
+  display: inline;
+  font-size: 35px;
+  padding: 2px;
+  border-radius: 8px;
+  margin-block: 0;
+  margin-inline: 0;
+}
+body .textContainer {
+  width: 1000px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 2px white;
+  gap: 20px;
+  background-color: #A7C8E7;
+  padding: 10px;
+  box-sizing: content-box;
+  border-radius: 5px;
+}
+body .textContainer #forTyping {
+  width: 790px;
+  height: 60px;
+  outline: none;
+  border: none;
+  font-size: 36px;
+  background-color: white;
+  padding-left: 20px;
+}
+body .textContainer #time {
+  width: 100px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #3C4D5C;
+  font-size: 30px;
+}
+body .textContainer #restart {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #428BCA;
+  color: white;
+}
+body #result {
+  padding: 10px;
+  font-size: 60px;
+  background-color: #a342ca;
+  color: white;
+  position: absolute;
+  top: 400px;
+}/*# sourceMappingURL=main.css.map */
